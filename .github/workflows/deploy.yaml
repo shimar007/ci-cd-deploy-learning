@@ -16,5 +16,5 @@ jobs:
           script: |
             mkdir /test
             cd test
-            git clone git@github.com:shimar007/ci-cd-deploy-learning.git
+            git clone git@github.com:shimar007/ci-cd-deploy-learning.git .
             echo "Successfully deployed"
